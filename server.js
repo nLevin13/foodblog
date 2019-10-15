@@ -31,6 +31,10 @@ app.get('/blog5.html', function(req, res){
   res.sendFile(__dirname + '/blog5.html');
 });
 
+app.get('/blog6.html', function(req, res){
+  res.sendFile(__dirname + '/blog6.html');
+});
+
 app.use("/assets", express.static(__dirname + '/assets'));
 app.use("/images", express.static(__dirname + '/images'));
 
