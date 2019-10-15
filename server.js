@@ -7,7 +7,7 @@ app.get(['/', '/index'], function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
-app.get(['/single', '/blog1'], function(req, res){
+app.get(['/single.html', '/blog1'], function(req, res){
   res.sendFile(__dirname + '/single.html');
 });
 
