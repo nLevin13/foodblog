@@ -35,6 +35,30 @@ app.get('/blog6.html', function(req, res){
   res.sendFile(__dirname + '/blog6.html');
 });
 
+app.get('/blog7.html', function(req, res){
+  res.sendFile(__dirname + '/blog7.html');
+});
+
+app.get('/page3.html', function(req, res){
+  res.sendFile(__dirname + '/page3.html');
+});
+
+app.get('/blog8.html', function(req, res){
+  res.sendFile(__dirname + '/blog8.html');
+});
+
+app.get('/blog9.html', function(req, res){
+  res.sendFile(__dirname + '/blog9.html');
+});
+
+app.get('/blog10.html', function(req, res){
+  res.sendFile(__dirname + '/blog10.html');
+});
+
+app.get('/page4.html', function(req, res){
+  res.sendFile(__dirname + '/page4.html');
+});
+
 app.use("/assets", express.static(__dirname + '/assets'));
 app.use("/images", express.static(__dirname + '/images'));
 
