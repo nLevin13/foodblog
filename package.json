@@ -20,7 +20,7 @@
     "express-fileupload": "^1.0.0",
     "express-session": "^1.15.6",
     "express-validator": "^5.3.0",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.5.0"
   },
   "bugs": {
     "url": "https://github.com/nLevin13/foodblog/issues"
